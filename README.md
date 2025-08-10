@@ -24,10 +24,11 @@ The app allows saving and loading profiles to/from local storage, clearing saved
 
 ## 📂 Project Structure
 
-├── index.html # Main HTML structure
-├── style.css # App styling
-├── scripts.js # Main logic (MVC pattern)
-└── bg.jpg # Background image
+- **index.html** – Main HTML structure and page layout.
+- **style.css** – Styling for layout, colors, and components.
+- **scripts.js** – Main application logic (Model, View, Controller).
+- **bg.jpg** – Background image for the app.
+- **README.md** – Project documentation.
 
 
 ---
