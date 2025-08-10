@@ -60,7 +60,7 @@ async function getRandomPokemon() {
 
     const data = await fetchJson(`https://pokeapi.co/api/v2/pokemon/${randomId}`);
     const pokemon = {
-        name: data.name,
+        name: data.name.charAt(0).toUpperCase() + data.name.slice(1),
         photo: data.sprites.front_default
     };
     return pokemon;
