@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="scripts.js"></script>
+    <title>RUPG-Project</title>
+</head>
+<body>
+    <div class ="container" id="main-page">
+        <div class="first-row" id="firstRow"></div>
+        <div class="middle-row" id="middleRow">
+            <div class = "left-col" id="leftCol"></div>
+            <div class = "right-col" id="rightCol"></div>
+        </div>
+        <div class="last-row" id="lastRow"></div>
+        <div class="menu-bar" id="addonsRow">
+            <div class="menu-left">
+                <button id="saveBtn" class="button modern-btn">Save</button>
+                <div class="menu-dropdown" id="loadDropdown">
+                    <button class="button menu-trigger">Load 🠹</button>
+                    <div class="menu-panel load-menu" id="loadMenuPanel"></div>
+                </div>
+            </div>
+            <div class="menu-right">
+                <button class="button clear" id="clear">Clear Storage</button>
+                <div class="menu-dropdown" id="friendsDropdown">
+                    <button class="button menu-trigger">Friends 🠹</button>
+                    <div class="menu-panel friends-menu" id="friendsMenuPanel"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
